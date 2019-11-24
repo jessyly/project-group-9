@@ -44,9 +44,9 @@ feature_type = ['disease', 'medicine', 'atclevel3code', 'atclevel4code',
  This 'train' will then be merged with other features as they are built
 """
 try: 
-    # Open connection with MySQL database
-    sf_conn = sf.connect(user='MuhammadAtif@UniMel', password='Inbox@123',
-                         account='ti70021.ap-southeast-2')
+    # Open connection with Snowflake database
+    sf_conn = sf.connect(user='******', password='******',
+                         account='******')
 
     #sf_conn = engine.connect()
     
