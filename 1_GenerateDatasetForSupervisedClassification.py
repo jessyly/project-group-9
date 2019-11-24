@@ -9,8 +9,8 @@
                disease and other features as specified (could be medicines, 
                atclevel3code, atclevel4code, atclevel5code) from patient history 
                merged into a single data frame with one record per patient  
-     Validation: 5-fold cross-validation on 75% training data 
-     Final test score: Using held-out 25% test data
+     Validation: 5-fold cross-validation on 80% training data 
+     Final test score: Using held-out 20% test data
 """
 
 import os
